@@ -2,7 +2,10 @@ import { supabase } from "../db/supabase";
 import { bodyInterface } from "../interface/users";
 
 export const getAllUser = async () => {
-  const { data, error } = await supabase.from("employee").select("*");
+  const { data, error } = await supabase
+    .from("employee")
+    .select("*")
+    .neq("role", "admin");
   if (error) return { error };
   return { data };
 };
@@ -31,8 +34,8 @@ export const updateUser = async ({
   id: string;
   body: bodyInterface;
 }) => {
-  console.log('id', id)
-  console.log('body', body)
+  console.log("id", id);
+  console.log("body", body);
   const { data, error } = await supabase
     .from("employee")
     .update(body)

@@ -10,7 +10,12 @@ const app = new Elysia()
       credentials: true,
     })
   )
-  .use(jwt({ name: "jwt", secret: process.env.JWT_SECRET! }))
+  .use(
+    jwt({
+      name: "jwt",
+      secret: process.env.JWT_SECRET!,
+    })
+  )
   .use(routes);
 
 app.listen(process.env.PORT || 5000);
