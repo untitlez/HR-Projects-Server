@@ -34,8 +34,6 @@ export const updateUser = async ({
   id: string;
   body: bodyInterface;
 }) => {
-  console.log("id", id);
-  console.log("body", body);
   const { data, error } = await supabase
     .from("employee")
     .update(body)
