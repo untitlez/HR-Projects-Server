@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Features
+### ✨ Features
 
 ⚡ Elysia + Bun – Ultra-fast TypeScript-first backend framework
 🔑 JWT Auth – Secure authentication with cookie-based session
@@ -13,7 +13,9 @@
 🧩 Modular Architecture – Clean separation of routes, controllers, services, and middleware
 ✅ TypeScript Support – Strongly typed API with interfaces
 
-## 🚀 Getting Started
+---
+
+### 🚀 Getting Started
 
 ### 1. Clone the repo
 ```bash
@@ -47,7 +49,7 @@ bun run dev
 http://localhost:5000
 ```
 
-🧱 Project Structure
+### 🧱 Project Structure
 ```plaintext
 /src
 ├── index.ts              
