@@ -4,12 +4,12 @@
 
 ## ✨ Features
 
-⚡ Elysia + Bun – Ultra-fast TypeScript-first backend framework
-🔑 JWT Auth – Secure authentication with cookie-based session
-🗄️ Supabase – Simple database access and REST-like query
-🛠️ Prisma – Type-safe ORM for advanced data modeling
-🧩 Modular Architecture – Clean separation of routes, controllers, services, and middleware
-✅ TypeScript Support – Strongly typed API with interfaces
+- ⚡ Elysia + Bun – Ultra-fast TypeScript-first backend framework
+- 🔑 JWT Auth – Secure authentication with cookie-based session
+- 🗄️ Supabase – Simple database access and REST-like query
+- 🛠️ Prisma – Type-safe ORM for advanced data modeling
+- 🧩 Modular Architecture – Clean separation of routes, controllers, services, and middleware
+- ✅ TypeScript Support – Strongly typed API with interfaces
 
 ## 🚀 Getting Started
 ### 1. Clone the repo
@@ -44,7 +44,7 @@ bun run dev
 http://localhost:5000
 ```
 
-## 🧱 Project Structure
+## 📂 Project Structure
 ```plaintext
 /src
 ├── index.ts              
