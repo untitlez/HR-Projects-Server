@@ -11,6 +11,8 @@
 - 🧩 Modular Architecture – Clean separation of routes, controllers, services, and middleware
 - ✅ TypeScript Support – Strongly typed API with interfaces
 
+---
+
 ## 🚀 Getting Started
 ### 1. Clone the repo
 ```bash
@@ -43,6 +45,8 @@ bun run dev
 ```plaintext
 http://localhost:5000
 ```
+
+---
 
 ## 📂 Project Structure
 ```plaintext
